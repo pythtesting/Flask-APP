@@ -8,7 +8,7 @@ WORKDIR /app
 COPY requirements.txt .
 
 #Install the project Dependenices
-RUN pip Install -r requirements.txt
+RUN pip install -r requirements.txt
 
 #copy the application code to container
 COPY . .
