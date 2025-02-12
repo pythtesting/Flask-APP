@@ -3,4 +3,4 @@
 set -e
 
 #Stop the running container
-echo "Hi"
+echo "Hi hello"
