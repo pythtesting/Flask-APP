@@ -5,4 +5,4 @@ set -e
 docker pull nityatesting/flask-app:latest
 
 #Run the Docker image as a container
-docker run -d -p 5000:5000 nityatesting/flask-app:latest
+docker run -it -p 5000:5000 nityatesting/flask-app:latest
