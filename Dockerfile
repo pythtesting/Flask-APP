@@ -20,5 +20,5 @@ EXPOSE 5000
 # ENV MY_ENV_VAR=value
 
 #RUn the flask application
-CMD [ "python" "app.py"]
+CMD [ "python" ,"app.py"]
 
